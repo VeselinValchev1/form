@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="name">Име:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="surname">Фамилия:</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="gender">Пол:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Мъж</option>
+            <option value="female">Жена</option>
+            <option value="other">Друг</option>
+        </select>
+
+        <label for="color">Любим цвят:</label>
+        <input type="color" id="color" name="color">
+
+        <label for="music">Прикачи файл за музика:</label>
+        <input type="file" id="music" name="music" accept="audio/*">
+
+        <label for="date">Избери дата:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit">Изпращане</button>
+    </form>
+    </form>
+</body>
+</html>
